@@ -31,7 +31,7 @@ export default function Header() {
     { path: '/search', label: 'Search', icon: FaSearch, show: true },
     { path: '/create-listing', label: 'Create Listing', icon: FaPlusCircle, show: isSignedIn },
     { path: '/about', label: 'About', icon: FaInfoCircle, show: true },
-    { path: '/profile', label: 'Profile', icon: FaUser, show: isSignedIn },
+    { path: '/profile', label: 'My Listings', icon: FaUser, show: isSignedIn },
   ];
 
   const visibleLinks = navLinks.filter(link => link.show);
